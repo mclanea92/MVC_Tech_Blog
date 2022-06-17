@@ -79,7 +79,7 @@ router.get('/post/:id', (req, res) => {
 });
 
 
-router.get('posts-comments', (req, res) => {
+router.get('/posts-comments', (req, res) => {
     Post.findOne({
         where: {
             id: req.params.id
