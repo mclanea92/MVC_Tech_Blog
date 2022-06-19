@@ -20,12 +20,12 @@ const sess = {
         db: sequelize
     })
 };
-
+app.use(session(sess));
 app.use(routes);
 
 app.engine('handlebars', hbs.engine);
 
-app.use(session(sess));
+
 
 app.use(express.urlencoded({ extended: true }));
 
