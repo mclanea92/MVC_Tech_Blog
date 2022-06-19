@@ -58,3 +58,13 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
+
+## Tests
+- In terminal "npm i" to install all packages that are in the package.json
+- Enter your information for mysql in the .env file
+- In terminal run seeds ( node seeds )
+- In terminal run server ( node server.js )
+- Open browser to http://localhost:3001/ to get to homepage
+
+## Screenshots
+This screenshot shows the 
