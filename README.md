@@ -67,4 +67,11 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 - Open browser to http://localhost:3001/ to get to homepage
 
 ## Screenshots
-This screenshot shows the 
+This screenshot shows the server code to allow the server to run correctly with handlebars, express, mysql and sequelize
+![screenshot of server code](./assets/server.png)
+
+This screenshot below is the main page when you load the application.
+![screenshot of the main page](./assets/main.png)
+
+This final screenshot shows the login/signup page for the application which allows the user to create an account or login if they have been on it before.
+![screenshot of the login page](./assets/login.png)
