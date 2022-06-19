@@ -74,12 +74,6 @@ p {
     box-shadow: 2px 2px var(--dark);
 }
 
-/* .btn:hover {
-    color: var(--primary);
-    background-color: var(--tertiary);
-    transform: translate(0, 0);
-    box-shadow: 2px 2px var(--dark);
-} */
 
 .btn-inline {
     display: inline;
