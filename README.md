@@ -22,7 +22,10 @@ https://github.com/mclanea92/MVC_Tech_Blog
 
 ## Heroku URL
 
+https://tech-blog-mclane.herokuapp.com/
+
 ## Acceptance Criteria
+
 ```md
 GIVEN a CMS-style blog site
 WHEN I visit the site for the first time
