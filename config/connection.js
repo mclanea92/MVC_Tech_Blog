@@ -1,3 +1,5 @@
+
+// connects to server and jawsdb from heroku based on where the server is
 const Sequelize = require('sequelize');
 require('dotenv').config();
 let sequelize;

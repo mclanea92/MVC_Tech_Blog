@@ -1,3 +1,5 @@
+// shows the path to the seeds and runs them
+
 const seedUsers = require('./user-seeds');
 const seedPosts = require('./post-seeds');
 const seedComments = require('./comment-seeds');

@@ -1,3 +1,5 @@
+// this route is for the users informaiton to login/logout/create an account
+
 const router = require('express').Router();
 const { User, Post, Comment } = require('../../models');
 router.get('/', (req, res) => {

@@ -1,3 +1,5 @@
+// This code is to show the post routes but making sure that the user is logged in
+
 const router = require('express').Router();
 const withAuth = require('../utils/auth')
 const sequelize = require('../config/connection');

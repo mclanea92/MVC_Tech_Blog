@@ -1,3 +1,5 @@
+// this route is for the posts that the user makes inside of the program
+
 const router = require('express').Router();
 const { Post, User, Comment } = require('../../models');
 const sequelize = require('../../config/connection');

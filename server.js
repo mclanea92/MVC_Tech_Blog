@@ -1,3 +1,5 @@
+// requiring all the apps and routes needed for the server to run
+
 const express = require('express');
 const routes = require('./controllers');
 const sequelize = require('./config/connection');

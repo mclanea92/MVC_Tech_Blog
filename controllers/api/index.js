@@ -1,3 +1,5 @@
+// this file connects everything in the api folders to the correct route
+
 const router = require('express').Router();
 const userRoutes = require('./user-routes');
 const commentRoutes = require('./comment-routes');

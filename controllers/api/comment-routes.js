@@ -1,3 +1,5 @@
+// this api shows the routes for each of the comments inside of the server
+
 const router = require('express').Router();
 const { Comment } = require('../../models');
 const withAuth = require('../../utils/auth');

@@ -1,3 +1,5 @@
+// this is what is required for the user info to be saved into the database
+
 const sequelize = require('../config/connection');
 const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');

@@ -1,3 +1,5 @@
+// this connects the comments, posts and users together and shows their relationship
+
 const User = require("./User");
 const Comment = require("./Comment");
 const Post = require("./Post");

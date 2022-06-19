@@ -1,6 +1,7 @@
 const sequelize = require('../config/connection');
 const router = require('express').Router();
 const { Post, Comment, User } = require('../models');
+// these routes are used to grab all the posts if the user is logged in
 
 router.get('/', (req, res) => {
     Post.findAll({
